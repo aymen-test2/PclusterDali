@@ -12,6 +12,7 @@ spec:
    memory_per_cpu: 1G
    time: 01:00:00   
    partition: queue1 
-   constraint: g4dn.xlarge 
+   #constraint: g4dn.xlarge 
+   constraint:  g5xlarge
    gres: gpu:1  
  
